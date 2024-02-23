@@ -1,0 +1,249 @@
+.top-menu {
+  color: rgb(219, 227, 132);
+  background-color: rgb(174, 39, 39);
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin: auto;
+}
+#sidenav {
+  width: 400px;
+  background-color: rgb(174, 39, 39);
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+  padding: 20px;
+  color: rgb(219, 227, 132);
+}
+
+#sidenav > a {
+  color: rgb(219, 227, 132);
+}
+
+.invisible {
+  display: none;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+.top-menu a {
+  color: rgb(219, 227, 132);
+  text-decoration: none;
+}
+.top-menu a:hover {
+  color: rgb(219, 227, 132);
+  text-decoration: none;
+}
+.mua {
+  text-align: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: 125px;
+}
+.khung {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.vien {
+  margin: auto;
+  height: 400px;
+  width: 850px;
+  background-color: #eceeef;
+}
+.button-buy {
+  margin: 0px;
+
+  border: none;
+}
+.in4 {
+  margin: auto;
+  height: 420px;
+  width: 850px;
+  background-color: #eceeef;
+  padding: 10px;
+}
+.button-buy button:hover {
+  background-color: rgb(174, 39, 39);
+  color: rgb(219, 227, 132);
+}
+.site-footer {
+  background-color: rgb(174, 39, 39);
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.site-footer hr {
+  border-top-color: #fffbfb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #fffdfd;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #fffbfb;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: rgb(219, 227, 132);
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #ffffff;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+.button-buy {
+  margin: 0px;
+
+  border: none;
+}
+.button-buy button:hover {
+  background-color: rgb(174, 39, 39);
+  color: rgb(219, 227, 132);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(219, 227, 132);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(152, 255, 152);
+}
+.btn-primary {
+  background-color: rgb(174, 39, 39) !important;
+  border: none !important;
+}

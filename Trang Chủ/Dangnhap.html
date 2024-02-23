@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng Nhập</title>
+  <style>
+    .required:after {
+      content: "*";
+      color: red;
+    }
+
+    .spacing-bottom {
+      margin-bottom: 20px;
+    }
+
+
+
+    .n {
+      float: right;
+    }
+
+    .l {
+      border: 2px solid black;
+      padding: 20px;
+      width: 250px;
+      height: 230px;
+      border-radius: 5px;
+      background-color: rgb(245, 255, 152);
+      margin-top: 235px;
+      margin-bottom: 200px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    body {
+      background: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/12/hinh-nen-may-tinh-tet-2.jpg);
+      background-size: cover;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 3px;
+      color: black;
+      background-color: rgb(174, 39, 39);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="button-buy">
+    <a href="/baicuoikhoa/Trang Chủ/exam.html" class="btn btn-primary">
+      Trang Chủ
+    </a>
+  </div>
+  <div class="l">
+    <h2>Form Đăng Nhập</h2>
+    <form id="formdangnhap">
+      <div class="spacing-bottom">
+        <label for="">Tên đăng nhập: </label>
+        <input type="text" name="name" required placeholder="Nhập tên đăng nhập" /><span class="required"></span>
+      </div>
+      <div class="spacing-bottom">
+        <label for="">Mật khẩu: </label><br>
+        <input type="password" name="password" required placeholder="Nhập mật khẩu" /><span class="required"></span>
+      </div>
+      <input class="n" type="submit" value="Đăng Nhập" />
+    </form>
+  </div>
+  <script src="dangnhap.js"></script>
+</body>
+
+</html>

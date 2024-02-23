@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <style>
+        .required:after {
+            content: '*';
+            color: red;
+        }
+
+        .spacing-bottom {
+            margin-bottom: 20px;
+        }
+
+        body {
+            background: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/12/hinh-nen-may-tinh-tet-2.jpg);
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 3px;
+            color: black;
+            background-color: rgb(174, 39, 39);
+        }
+
+        .n {
+            float: right;
+        }
+
+        .m {
+            border: 2px solid black;
+            padding: 20px;
+            width: 250px;
+            height: 345px;
+            border-radius: 8px;
+            background-color: rgb(245, 255, 152);
+            margin-top: 175px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button-buy">
+        <a href="/baicuoikhoa/Trang Chủ/exam.html" class="btn btn-primary">
+            Trang Chủ
+        </a>
+    </div>
+    <div class="m">
+        <h2>Form Đăng Ký</h2>
+        <form id="formdangky">
+            <div class="spacing-bottom">
+                <label for="">Tên đăng nhập: </label>
+                <input type="text" name="name" required placeholder="Tạo tên đăng nhập"><span class="required"></span>
+            </div>
+            <div class="spacing-bottom">
+                <label for="">Số điện thoại: </label>
+                <input type="number" name="contactnumber" required placeholder="Nhập số"><span class="required"></span>
+            </div>
+            <div class="spacing-bottom">
+                <label for="">Email: </label><br>
+                <input type="text" name="email" required placeholder="Nhập Email"><span class="required"></span>
+            </div>
+            <div class="spacing-bottom">
+                <label for="">Mật khẩu: </label><br>
+                <input type="password" name="password" required placeholder="Tạo mật khẩu"><span
+                    class="required"></span>
+            </div>
+            <div class="spacing-bottom">
+                <label for="">Giới tính: </label>
+                <select name="gender" id="">
+                    <optgroup label="Giới tính: ">
+                        <option value=""></option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+            </div>
+            <input class="n" type="submit" value="Đăng Ký">
+        </form>
+    </div>
+
+
+
+    <script src="dangky.js"></script>
+</body>
+
+</html>
